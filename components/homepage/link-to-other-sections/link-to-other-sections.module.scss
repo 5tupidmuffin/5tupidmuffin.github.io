@@ -12,5 +12,8 @@
       color: black;
       text-decoration: none;
     }
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 }
