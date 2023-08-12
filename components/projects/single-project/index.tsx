@@ -1,6 +1,7 @@
 import React, { FC, ReactNode } from "react";
 import Link from "next/link";
 import styles from "./single-project.module.scss";
+import Image from "next/image";
 
 interface Props {
   projectData: {
@@ -22,7 +23,13 @@ const SingleProject: FC<Props> = ({ projectData }) => {
   const singleLink = (label: string, url: string): ReactNode => {
     return (
       <Link className={styles.singleLink} href={url} target="_blank">
-        {label}
+        {label}{" "}
+        <Image
+          src="/images/external-link-arrow.svg"
+          height={12}
+          width={12}
+          alt="external link icon"
+        />
       </Link>
     );
   };
