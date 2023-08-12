@@ -1,6 +1,7 @@
 import React, { FC, useEffect, useState } from "react";
 import styles from "./projects.module.scss";
 import SingleProject from "./single-project";
+import PageHeader from "@/components/common/page-header";
 
 interface ProjectData {
   title: string;
@@ -27,7 +28,7 @@ const ProjectsPageComponent: FC = () => {
 
   return (
     <main className={styles.projectsPage}>
-      <h1 className={styles.pageHeader}>Projects</h1>
+      <PageHeader pageTitle="Projects" />
       {projects.length &&
         projects.map((data, idx) => (
           <SingleProject key={idx} projectData={data} />
