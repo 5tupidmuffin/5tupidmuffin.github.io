@@ -80,7 +80,7 @@
     "description": "The Sudoku mobile web app is a fully functional implementation of the popular Sudoku puzzle game that can be played directly on a mobile device's web browser. It is built using TypeScript, CSS, and HTML, and does not require a server to run.\nThe app features a straightforward and user-friendly interface, allowing players to easily input numbers and navigate through the puzzle grid.",
     "technologies": ["JavaScript", "Typescript", "CSS", "HTML"],
     "URLs": {
-      "Github Repository": "https://github.com/5tupidmuffin/kuzuki",
+      "Github Repository": "https://github.com/5tupidmuffin/sudoku",
       "Website": "https://5tupidmuffin.github.io/sudoku/"
     }
   }
