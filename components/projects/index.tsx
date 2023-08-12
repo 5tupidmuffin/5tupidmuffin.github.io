@@ -21,7 +21,7 @@ const ProjectsPageComponent: FC = () => {
   }, []);
 
   const getProjects = async (): Promise<ProjectData[]> => {
-    const response = await fetch("/projects.json");
+    const response = await fetch("/json-data/projects.json");
     const responseData = await response.json();
     return responseData;
   };

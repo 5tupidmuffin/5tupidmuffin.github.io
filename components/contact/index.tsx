@@ -13,7 +13,7 @@ const ContactPageComponent: FC = () => {
   }, []);
 
   const getSocials = async (): Promise<Record<string, string>> => {
-    const response = await fetch("/contact.json");
+    const response = await fetch("/json-data/contact.json");
     const responseData = await response.json();
     return responseData;
   };
