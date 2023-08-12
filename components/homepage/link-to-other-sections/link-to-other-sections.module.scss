@@ -1,0 +1,19 @@
+.linksContainer {
+  position: absolute;
+  padding: 2rem;
+  bottom: 0;
+  left: 0;
+  .link {
+    margin-bottom: 1.5rem;
+    a {
+      font-family: "Space Grotesk";
+      font-size: 20px;
+      font-weight: 500;
+      color: black;
+      text-decoration: none;
+    }
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

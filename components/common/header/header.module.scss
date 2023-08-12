@@ -1,0 +1,18 @@
+.header {
+  padding: 1.5rem;
+  position: fixed;
+  top: 0;
+  .name {
+    font-family: "Raleway";
+    font-weight: 200;
+    margin: 0;
+    font-size: 50px;
+  }
+  .homepageLink {
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,19 @@
+@import "../../styles/variables";
+
+.aboutPage {
+  .aboutMe {
+    font-size: 18px;
+    white-space: pre-line;
+    width: 65%;
+    padding-left: 2rem;
+    font-family: "Raleway";
+    font-weight: 600;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 2rem;
+    @media screen and (max-width: $mobile-resolution) {
+      width: 80%;
+    }
+  }
+}
