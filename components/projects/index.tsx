@@ -29,7 +29,7 @@ const ProjectsPageComponent: FC = () => {
   return (
     <main className={styles.projectsPage}>
       <PageHeader pageTitle="Projects" />
-      {projects.length &&
+      {!!projects.length &&
         projects.map((data, idx) => (
           <SingleProject key={idx} projectData={data} />
         ))}
