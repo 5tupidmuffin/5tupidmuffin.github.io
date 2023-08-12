@@ -1,0 +1,57 @@
+[
+  {
+    "title": "getSauce",
+    "subTitle": "Find Source For Any Screenshot",
+    "startDate": "01-01-2023",
+    "endDate": "11-08-2023",
+    "description": "this was last semester degree project.\nthe goal behind the project was to make a web app which can detect source for any screenshot uploaded to it by utilizing third-party Reverse Image Search API. The Web App is written in python using the Flask framework and SQLite as the database with SQLAlchemy as ORM. the API used for actually finding the source was SauceNAO. to perform as search one has to upload an image and can even crop it according to their need using option provided on the search screen, and if it successfully finds source it will also fetch extra link to that media such as IMDB and website from which they can stream. it also saves searches as long the user is logged in.",
+    "technologies": [
+      "Python",
+      "Flask",
+      "SQLite",
+      "SQLAlchemy",
+      "HTML",
+      "CSS",
+      "JS"
+    ],
+    "URLs": {
+      "Github Repository": "https://github.com/5tupidmuffin/getSauce",
+      "Github Repository1": "https://github.com/5tupidmuffin/getSauce",
+      "Github Repository2": "https://github.com/5tupidmuffin/getSauce",
+      "Github Repository3": "https://github.com/5tupidmuffin/getSauce"
+    }
+  },
+  {
+    "title": "dummy project title",
+    "subTitle": "Find Source For Any Screenshot",
+    "startDate": "dummyDate",
+    "endDate": "endDate",
+    "description": "this is some dummy description of the project just so it will fill some lines and i can test the layout of the projects page list properly since few words to check the loaut will not suffice",
+    "technologies": ["HTML", "CSS", "JS", "TS"],
+    "URLs": {
+      "Github": "https://github.com/5tupidmuffin/getSauce"
+    }
+  },
+  {
+    "title": "dummy project title",
+    "subTitle": "Find Source For Any Screenshot",
+    "startDate": "dummyDate",
+    "endDate": "endDate",
+    "description": "this is some dummy description of the project just so it will fill some lines and i can test the layout of the projects page list properly since few words to check the loaut will not suffice",
+    "technologies": ["HTML", "CSS", "JS", "TS"],
+    "URLs": {
+      "Github": "https://github.com/5tupidmuffin/getSauce"
+    }
+  },
+  {
+    "title": "dummy project title",
+    "subTitle": "Find Source For Any Screenshot",
+    "startDate": "dummyDate",
+    "endDate": "endDate",
+    "description": "this is some dummy description of the project just so it will fill some lines and i can test the layout of the projects page list properly since few words to check the loaut will not suffice",
+    "technologies": ["HTML", "CSS", "JS", "TS"],
+    "URLs": {
+      "Github": "https://github.com/5tupidmuffin/getSauce"
+    }
+  }
+]
