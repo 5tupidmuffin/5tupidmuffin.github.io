@@ -1,8 +1,5 @@
 import "@/styles/globals.scss";
 import type { Metadata } from "next";
-import { Space_Grotesk } from "next/font/google";
-
-const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "5tupidmuffin",
@@ -24,7 +21,7 @@ export default function RootLayout({
           href="https://avatars.githubusercontent.com/u/43025025?v=4" // github pfp
         ></link>
       </head>
-      <body className={spaceGrotesk.className}>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
