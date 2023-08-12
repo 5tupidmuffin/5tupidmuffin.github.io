@@ -2,9 +2,9 @@
   {
     "title": "getSauce",
     "subTitle": "Find Source For Any Screenshot",
-    "startDate": "01-01-2023",
-    "endDate": "11-08-2023",
-    "description": "this was last semester degree project.\nthe goal behind the project was to make a web app which can detect source for any screenshot uploaded to it by utilizing third-party Reverse Image Search API. The Web App is written in python using the Flask framework and SQLite as the database with SQLAlchemy as ORM. the API used for actually finding the source was SauceNAO. to perform as search one has to upload an image and can even crop it according to their need using option provided on the search screen, and if it successfully finds source it will also fetch extra link to that media such as IMDB and website from which they can stream. it also saves searches as long the user is logged in.",
+    "startDate": "02-2021",
+    "endDate": "04-2021",
+    "description": "The last semester degree project was focused on developing a web application that utilizes a third-party Reverse Image Search API, specifically SauceNAO. The goal of the project was to enable users to upload a screenshot and have the web app detect the source of the image. The web app was built using Python with the Flask framework and SQLite as the database, incorporatin SQLAlchemy as the ORM.\nThe functionality of the web app involved allowing users to upload an image and optionally crop it before performing a search. If the search was successful, the app would retrieve additional links related to the media, such as IMDB and streaming websites. Additionally, the app would save the users' searches as long as they were logged in.",
     "technologies": [
       "Python",
       "Flask",
@@ -15,43 +15,73 @@
       "JS"
     ],
     "URLs": {
-      "Github Repository": "https://github.com/5tupidmuffin/getSauce",
-      "Github Repository1": "https://github.com/5tupidmuffin/getSauce",
-      "Github Repository2": "https://github.com/5tupidmuffin/getSauce",
-      "Github Repository3": "https://github.com/5tupidmuffin/getSauce"
+      "Github Repository": "https://github.com/5tupidmuffin/getSauce"
     }
   },
   {
-    "title": "dummy project title",
-    "subTitle": "Find Source For Any Screenshot",
-    "startDate": "dummyDate",
-    "endDate": "endDate",
-    "description": "this is some dummy description of the project just so it will fill some lines and i can test the layout of the projects page list properly since few words to check the loaut will not suffice",
+    "title": "chess",
+    "subTitle": "with good old web technologies",
+    "startDate": "26-02-2022",
+    "endDate": "27-04-2022",
+    "description": "The chess implementation is a web-based application that allows users to play chess directly in their browser. It has been developed using HTML, CSS, and TypeScript, without relying on any external libraries or server-side code.\nThis implementation includes all the necessary logic for the game, such as move generation, determining the legality of moves, and even includes an AI opponent that is capable of deducing the best move for the computer player.",
     "technologies": ["HTML", "CSS", "JS", "TS"],
     "URLs": {
-      "Github": "https://github.com/5tupidmuffin/getSauce"
+      "Github Repository": "https://github.com/5tupidmuffin/chess",
+      "Website": "https://5tupidmuffin.github.io/chess"
     }
   },
   {
-    "title": "dummy project title",
-    "subTitle": "Find Source For Any Screenshot",
-    "startDate": "dummyDate",
-    "endDate": "endDate",
-    "description": "this is some dummy description of the project just so it will fill some lines and i can test the layout of the projects page list properly since few words to check the loaut will not suffice",
-    "technologies": ["HTML", "CSS", "JS", "TS"],
+    "title": "Broadcast",
+    "subTitle": "A 4Chan Clone made in a single Day",
+    "startDate": "07-03-2023",
+    "endDate": "07-03-2023",
+    "description": "Broadcast is a web-based application inspired by 4chan. It was created within a single day using a combination of technologies such as Python, Django, Django REST Framework (DRF), SQLite, TypeScript, NextJS, ReactJS, and SCSS.\nThis project aims to provide a similar forum-like experience to 4chan, allowing users to post and interact with content. With the Django backend and DRF, users can create and retrieve posts and comments, while SQLite is used as the database for storing the data. On the frontend, Next.js, React, and SCSS are employed to build the user interface and enhance the user experience.\nDespite being developed in a short timeframe, Broadcast offers core functionalities typically found on platforms like 4chan.",
+    "technologies": [
+      "Python",
+      "Django",
+      "Django Rest Framework",
+      "SQLite",
+      "JavaScript",
+      "Typescript",
+      "NextJS",
+      "ReactJS",
+      "SCSS"
+    ],
     "URLs": {
-      "Github": "https://github.com/5tupidmuffin/getSauce"
+      "Github Repository": "https://github.com/5tupidmuffin/broadcast"
     }
   },
   {
-    "title": "dummy project title",
-    "subTitle": "Find Source For Any Screenshot",
-    "startDate": "dummyDate",
-    "endDate": "endDate",
-    "description": "this is some dummy description of the project just so it will fill some lines and i can test the layout of the projects page list properly since few words to check the loaut will not suffice",
-    "technologies": ["HTML", "CSS", "JS", "TS"],
+    "title": "Kuzuki",
+    "subTitle": "A Breakout Arcade Clone",
+    "startDate": "21-12-2022",
+    "endDate": "08-01-2023",
+    "description": "Kuzuki is a Python-based clone of the classic arcade game Breakout, developed using the pygame library.\nIn Kuzuki, players control a paddle at the bottom of the screen to bounce a ball and break bricks at the top of the screen. The objective is to demolish all the bricks while preventing the ball from falling off the bottom of the screen.\nThis project faithfully recreates the gameplay mechanics and visual aesthetics of the original Breakout game, providing an enjoyable and nostalgic gaming experience for players.",
+    "technologies": [
+      "Python",
+      "Django",
+      "Django Rest Framework",
+      "SQLite",
+      "JavaScript",
+      "Typescript",
+      "NextJS",
+      "ReactJS",
+      "SCSS"
+    ],
     "URLs": {
-      "Github": "https://github.com/5tupidmuffin/getSauce"
+      "Github Repository": "https://github.com/5tupidmuffin/kuzuki"
+    }
+  },
+  {
+    "title": "Sudoku",
+    "subTitle": "Sudoku for Mobile on Browser without Server",
+    "startDate": "04-06-2022",
+    "endDate": "11-06-2022",
+    "description": "The Sudoku mobile web app is a fully functional implementation of the popular Sudoku puzzle game that can be played directly on a mobile device's web browser. It is built using TypeScript, CSS, and HTML, and does not require a server to run.\nThe app features a straightforward and user-friendly interface, allowing players to easily input numbers and navigate through the puzzle grid.",
+    "technologies": ["JavaScript", "Typescript", "CSS", "HTML"],
+    "URLs": {
+      "Github Repository": "https://github.com/5tupidmuffin/kuzuki",
+      "Website": "https://5tupidmuffin.github.io/sudoku/"
     }
   }
 ]
