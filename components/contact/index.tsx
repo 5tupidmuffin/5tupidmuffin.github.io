@@ -3,6 +3,7 @@ import React, { FC, ReactNode, useEffect, useState } from "react";
 import styles from "./contact.module.scss";
 import PageHeader from "@/components/common/page-header";
 import Link from "next/link";
+import Image from "next/image";
 
 const ContactPageComponent: FC = () => {
   const [socials, setSocials] = useState<Record<string, string>>({});
@@ -20,7 +21,13 @@ const ContactPageComponent: FC = () => {
   const socialLink = (label: string, url: string): ReactNode => {
     return (
       <Link className={styles.socialLink} href={url}>
-        {label}
+        {label}{" "}
+        <Image
+          src="/images/external-link-arrow.svg"
+          height={18}
+          width={18}
+          alt=""
+        />
       </Link>
     );
   };
