@@ -57,24 +57,14 @@
     "startDate": "21-12-2022",
     "endDate": "08-01-2023",
     "description": "Kuzuki is a Python-based clone of the classic arcade game Breakout, developed using the pygame library.\nIn Kuzuki, players control a paddle at the bottom of the screen to bounce a ball and break bricks at the top of the screen. The objective is to demolish all the bricks while preventing the ball from falling off the bottom of the screen.\nThis project faithfully recreates the gameplay mechanics and visual aesthetics of the original Breakout game, providing an enjoyable and nostalgic gaming experience for players.",
-    "technologies": [
-      "Python",
-      "Django",
-      "Django Rest Framework",
-      "SQLite",
-      "JavaScript",
-      "Typescript",
-      "NextJS",
-      "ReactJS",
-      "SCSS"
-    ],
+    "technologies": ["Python", "PyGame"],
     "URLs": {
       "Github Repository": "https://github.com/5tupidmuffin/kuzuki"
     }
   },
   {
     "title": "Sudoku",
-    "subTitle": "Sudoku for Mobile on Browser without Server",
+    "subTitle": "for Mobile on Browser without Server",
     "startDate": "04-06-2022",
     "endDate": "11-06-2022",
     "description": "The Sudoku mobile web app is a fully functional implementation of the popular Sudoku puzzle game that can be played directly on a mobile device's web browser. It is built using TypeScript, CSS, and HTML, and does not require a server to run.\nThe app features a straightforward and user-friendly interface, allowing players to easily input numbers and navigate through the puzzle grid.",
