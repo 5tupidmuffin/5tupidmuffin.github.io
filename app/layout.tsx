@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "5tupidmuffin",
-  description: "just an avg dev",
+  description: "Full Stack Developer based in Mumbai",
 };
 
 export default function RootLayout({
@@ -14,7 +14,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <title>5tupidmuffin</title>
         <link
           rel="icon"
           type="image/x-icon"
