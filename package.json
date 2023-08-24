@@ -1,7 +1,14 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
+  "description": "portfolio of 5tupidmuffin",
+  "author": "5tupidmuffin",
+  "license": "BSD-2-Clause",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/5tupidmuffin/5tupidmuffin.github.io.git"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build && touch build/.nojekyll",
