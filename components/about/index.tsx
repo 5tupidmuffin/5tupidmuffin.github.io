@@ -3,19 +3,11 @@ import React, { FC, useEffect, useState } from "react";
 import styles from "./about.module.scss";
 import PageHeader from "@/components/common/page-header";
 
-const AboutPageComponent: FC = () => {
-  const [aboutMe, setAboutMe] = useState("");
+interface Props {
+  aboutMe: string;
+}
 
-  useEffect(() => {
-    getAboutMe().then(setAboutMe);
-  }, []);
-
-  const getAboutMe = async (): Promise<string> => {
-    const response = await fetch("/json-data/about.json");
-    const responseData = await response.json();
-    return responseData.aboutMe;
-  };
-
+const AboutPageComponent: FC<Props> = ({ aboutMe }) => {
   return (
     <main className={styles.aboutPage}>
       <PageHeader pageTitle="About" />

@@ -5,7 +5,7 @@ import PageHeader from "@/components/common/page-header";
 import Image from "next/image";
 import Link from "next/link";
 
-interface ProjectData {
+export interface ProjectData {
   title: string;
   subTitle: string;
   startDate: string;
@@ -15,19 +15,11 @@ interface ProjectData {
   URLs: Record<string, string>;
 }
 
-const ProjectsPageComponent: FC = () => {
-  const [projects, setProjects] = useState<ProjectData[]>([]);
+interface Props {
+  projects: ProjectData[];
+}
 
-  useEffect(() => {
-    getProjects().then(setProjects);
-  }, []);
-
-  const getProjects = async (): Promise<ProjectData[]> => {
-    const response = await fetch("/json-data/projects.json");
-    const responseData = await response.json();
-    return responseData;
-  };
-
+const ProjectsPageComponent: FC<Props> = ({ projects }) => {
   return (
     <main className={styles.projectsPage}>
       <PageHeader pageTitle="Projects" />

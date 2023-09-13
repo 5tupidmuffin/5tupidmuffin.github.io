@@ -5,19 +5,11 @@ import PageHeader from "@/components/common/page-header";
 import Link from "next/link";
 import Image from "next/image";
 
-const ContactPageComponent: FC = () => {
-  const [socials, setSocials] = useState<Record<string, string>>({});
+interface Props {
+  contactDetails: Record<string, string>;
+}
 
-  useEffect(() => {
-    getSocials().then(setSocials);
-  }, []);
-
-  const getSocials = async (): Promise<Record<string, string>> => {
-    const response = await fetch("/json-data/contact.json");
-    const responseData = await response.json();
-    return responseData;
-  };
-
+const ContactPageComponent: FC<Props> = ({ contactDetails }) => {
   const socialLink = (label: string, url: string): ReactNode => {
     return (
       <Link className={styles.socialLink} href={url}>
@@ -36,7 +28,9 @@ const ContactPageComponent: FC = () => {
     <main className={styles.contactPage}>
       <PageHeader pageTitle="Contact" />
       <div className={styles.socials}>
-        {Object.keys(socials).map((key) => socialLink(key, socials[key]))}
+        {Object.keys(contactDetails).map((key) =>
+          socialLink(key, contactDetails[key])
+        )}
       </div>
     </main>
   );
